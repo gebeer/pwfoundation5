@@ -26,7 +26,7 @@ For example you could add */scss/ui/_menu.scss* and then add the line
 
 ```@import "ui/menu"```
 
-to *scss/styles.scss*.
+to *scss/style.scss*.
 
 To recompile simply open a terminal, go to yourproject/site/templates/scss and do `compass watch`.
 There are other ways doing this with GUI apps. Since I prefer the commandline, I can't tell you more about it.
