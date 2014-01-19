@@ -40,8 +40,8 @@ In order to use this template and compile the CSS from the SCSS files your machi
 
 ##Install the template
 Method 1:
-m
-1. download the [zip file from here](https://github.com/gebeer/pwfoundation5/archive/master.zip), unpack it, rename it to "templates" andcopy it to your Processwire installations site folder. Don't forget to delete the existing templates folder beforehand.
+
+1. download the [zip file from here](https://github.com/gebeer/pwfoundation5/archive/master.zip), unpack it, rename it to "templates" and copy it to your Processwire installations site folder. Don't forget to delete the existing templates folder beforehand.
 2. add these lines to your site/config.php
 ```
 /**
