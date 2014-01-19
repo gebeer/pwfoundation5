@@ -43,7 +43,9 @@ Method 1:
 
 1. download the [zip file from here](https://github.com/gebeer/pwfoundation5/archive/master.zip), unpack it, rename it to "templates" and copy it to your Processwire installations site folder. Don't forget to delete the existing templates folder beforehand.
 2. add these lines to your site/config.php
+
 ```
+
 /**
  * prependTemplateFile: PHP file in /site/templates/ that will be loaded before each page's template file
  *
@@ -59,12 +61,14 @@ $config->prependTemplateFile = '_init.php';
  *
  */
 $config->appendTemplateFile = '_main.php';
+
 ```
 
 Method 2 (command line):
 
 1. Go to your Processwires site folder and do `git clone https://github.com/gebeer/pwfoundation5.git templates`
 2. add these lines to your site/config.php
+
 ```
 /**
  * prependTemplateFile: PHP file in /site/templates/ that will be loaded before each page's template file
