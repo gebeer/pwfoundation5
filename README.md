@@ -104,7 +104,7 @@ Everyone is welcome to fork it, change it to their liking and improve on it.
 If you detect bugs, pull requests are welcome.
 
 ##Discussion
-I share this with other Processwire users [at the forum](http://processwire.com/talk/topic/5293-zurb-foundation-5-profiles/). If you have questions, post them there. I will try and answer them.
+I share this with other Processwire users [at the forum](http://processwire.com/talk/topic/5293-zurb-foundation-5-profiles/#entry51707). If you have questions, post them there. I will try and answer them.
 
 ##Last note about OS
 I'm working on a linux box. Installation instructions for Ruby/Compass/Foundation gem should be fairly identical on Mac OSX. Windows users: sorry, I don't know. But I guess there are ways to do this on Windows. Google might be helpful...
