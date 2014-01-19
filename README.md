@@ -35,6 +35,7 @@ This way you have one scss module for the menu styling and don't have to go thro
 
 ##Prerequisites
 In order to use this template and compile the CSS from the SCSS files your machine needs the following software:
+
 1. COMPASS (which needs Ruby). [See howto install](http://compass-style.org/install/)
 2. ZURB Foundation Gem. [See how to do this](http://foundation.zurb.com/docs/v/4.3.2/sass.html)(section *"Working with Existing projects"*) or do `gem install zurb-foundation` in a terminal.
 
