@@ -44,7 +44,7 @@ if(!$useMain) return;
 						<!--substitute in your own logo or text here-->
 						<h1>
 							<a href="<?php echo $config->urls->root; ?>">
-								<img id='logo' src='<?php echo $config->urls->templates; ?>styles/images/logo.png' width='159' height='28' alt='ProcessWire' />
+								<img id='logo' src='<?php echo $config->urls->templates; ?>images/logo.png' width='159' height='28' alt='ProcessWire' />
 							</a>
 						</h1>
 					</li>
