@@ -36,4 +36,27 @@ In order to use this template and compile the CSS from the SCSS files your machi
 2. ZURB Foundation Gem. [See how to do this](http://foundation.zurb.com/docs/v/4.3.2/sass.html)(section *"Working with Existing projects"*) or do `gem install zurb-foundation` in a terminal.
 
 ##Install the template
-Either download the zip file from here
+Method 1:
+1. download the [zip file from here](https://github.com/gebeer/pwfoundation5/archive/master.zip), unpack it, rename it to "templates" andcopy it to your Processwire installations site folder. Don't forget to delete the existing templates folder beforehand.
+2. add these lines to your site/config.php
+```
+/**
+ * prependTemplateFile: PHP file in /site/templates/ that will be loaded before each page's template file
+ *
+ * Uncomment and edit to enable.
+ *
+ */
+$config->prependTemplateFile = '_init.php';
+
+/**
+ * appendTemplateFile: PHP file in /site/templates/ that will be loaded after each page's template file
+ *
+ * Uncomment and edit to enable.
+ *
+ */
+$config->appendTemplateFile = '_main.php';
+```
+
+Method 2 (command line):
+1. Go to your Processwires site folder and do `git clone `
+
