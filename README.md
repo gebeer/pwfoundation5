@@ -3,7 +3,7 @@
 
 It is based on Ryan Cramers [FoundationSiteProfile](https://github.com/ryancramerdesign/FoundationSiteProfile).
 
-This template integrates Foundation 5 nicely into Processwire. It produces only one CSS file (styles/style.css) that contains all the Foundation CSS and the custom template styles.
+This template integrates Foundation 5 nicely into Processwire. It produces only one CSS file (templates/styles/style.css) that contains all the Foundation CSS and the custom template styles.
 
 To achieve this, the template works with Foundations Compass SCSS files.
 
@@ -17,16 +17,16 @@ The CSS output is highly customizable.
 
 Everything CSS related happens in the **scss** folder.
 
-To **configure** your **Foundation** output, you can modify **scss/styles.scss** and **scss/_settings.scss**
+To **configure** your **Foundation** output, you can modify **templates/scss/styles.scss** and **templates/scss/_settings.scss**
 
-All the **project specific** styles can be found in **scss/ui/_main.scss**.
+All the **project specific** styles can be found in **templates/scss/ui/_main.scss**.
 
 You can define more scss files in the ui folder and then include them.
-For example you could add */scss/ui/_menu.scss* and then add the line
+For example you could add */templates/scss/ui/_menu.scss* and then add the line
 
 ```@import "ui/menu"```
 
-to *scss/style.scss*.
+to *templates/scss/style.scss*.
 
 To recompile simply open a terminal, go to yourproject/site/templates/scss and do `compass watch`.
 There are other ways doing this with GUI apps. Since I prefer the commandline, I can't tell you more about it.
