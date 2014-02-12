@@ -39,7 +39,6 @@ In order to use this template and compile the CSS from the SCSS files your machi
 1. COMPASS (which needs Ruby). [See howto install](http://compass-style.org/install/)
 2. ZURB Foundation Gem. [See how to do this](http://foundation.zurb.com/docs/sass.html)(section *"Working with Existing projects"*) or do `gem install zurb-foundation` in a terminal.
 
-For those who want to upgrade Foundation from v4 to v5, [see the official instructions here](http://foundation.zurb.com/docs/upgrading.html).
 
 ##Install the template to a fresh Processwire site
 
@@ -57,7 +56,7 @@ Method 2 (command line):
 
 ##Update Foundation
 You can update the Foundation framework independently from your project by doing `[sudo] gem update zurb-foundation` at a command prompt. Then recompile your CSS and you should be fine.
-There are some more options for updating at the [official Foundation Documentation](http://foundation.zurb.com/docs/v/4.3.2/sass.html)(see section "Upgrading Foundation Compass projects")
+There are some more options for updating at the [official Foundation Documentation](http://foundation.zurb.com/docs/upgrading.html)(see section "Upgrading Foundation Compass projects")
 
 
 ##Javascript
