@@ -1,5 +1,5 @@
 #pwfoundation5
-**This is a dropin template for the fabulous Open Source CMS Processwire, using Zurb Foundation 5 Compass files.**
+**This is a dropin template for the fabulous Open Source CMS Processwire 2.4, using Zurb Foundation 5 Compass files.**
 
 It is based on Ryan Cramers [FoundationSiteProfile](https://github.com/ryancramerdesign/FoundationSiteProfile).
 
